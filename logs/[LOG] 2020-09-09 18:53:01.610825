@@ -1,0 +1,9 @@
+2020-09-09 18:53:01.610842 >> Inicialización de herramienta
+	|---2020-09-09 18:53:01.614048 >> Inicio de comparación n° 1
+		|---2020-09-09 18:53:06.506784 >> Ingresada cadena 1: \n\nHola
+		|---2020-09-09 18:53:08.540049 >> Ingresada cadena 2: Hola
+		|---2020-09-09 18:53:08.540329 >> Comparasión exitosa
+			|-----------------------------result: 	{La cadena 1 es mas larga por 4 caracteres}
+	|---2020-09-09 18:53:08.540421 >> Inicio de comparación n° 2
+		|---2020-09-09 18:53:17.538969 >> Ingresada cadena 1: exit()
+2020-09-09 18:53:17.539207 >> Ejecución terminada

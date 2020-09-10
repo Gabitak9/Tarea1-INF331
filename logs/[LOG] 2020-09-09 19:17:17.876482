@@ -1,0 +1,14 @@
+2020-09-09 19:17:17.876526 >> Inicialización de herramienta
+	|---2020-09-09 19:17:17.877660 >> Inicio de comparación n° 1
+		|---2020-09-09 19:17:21.706271 >> Ingresada cadena 1: kjgkjh
+		|---2020-09-09 19:17:23.602289 >> Ingresada cadena 2: jhdsajdh
+		|---2020-09-09 19:17:23.602467 >> Comparasión exitosa
+			|-----------------------------result: 	{La cadena 2 es mas larga por 2 caracteres}
+	|---2020-09-09 19:17:23.602529 >> Inicio de comparación n° 2
+		|---2020-09-09 19:17:31.642106 >> Ingresada cadena 1: xxx
+		|---2020-09-09 19:17:33.977672 >> Ingresada cadena 2: xxx
+		|---2020-09-09 19:17:33.977862 >> Comparasión exitosa
+			|-----------------------------result: 	{La cadena 2 es mas larga por 0 caracteres}
+	|---2020-09-09 19:17:33.977945 >> Inicio de comparación n° 3
+		|---2020-09-09 19:17:45.306375 >> Ingresada cadena 1: exit()
+2020-09-09 19:17:45.306597 >> Ejecución terminada
