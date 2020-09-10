@@ -9,10 +9,7 @@ Esta tarea consiste en el desrrollo de Una función que compare 2 cadenas de car
 Se ha utilizado como lenguaje de programación `Python 3.8.2`
 
 ##### Instalación
-Para la correcta ejecución del programa se debe contar con todos los requerimientos solicitados por éste. Para ello puedo puede utilizar el archivo `requeriments.txt` con la siguiente instrucción:
-~~~
-pip3 install -r requeriments.txt
-~~~
+EL programa no requiere ninguna librería especial. Sólo utiliza `datetime` que viene incluida por defecto en la instalación de Python.
 
 ##### Ejecución del Programa
 Para ejecutar el programa utilice el siguiente comando:
