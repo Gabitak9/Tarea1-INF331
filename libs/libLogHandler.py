@@ -145,7 +145,7 @@ def interruption(date,info, filename):
     Returns:
         None
     """
-    newLog = '\t\t|---'+str(date)+' >> Comparación interrumpida\n\t\t\t|-----------------------------details: '+str(info[0])+'\n'
+    newLog = '\t\t|---'+str(date)+' >> Comparación interrumpida. Reiniciando\n\t\t\t|-----------------------------details: '+str(info[0])+'\n'
 
     with open(filename, 'a') as file:
        file.write(newLog)

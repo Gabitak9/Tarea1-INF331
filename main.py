@@ -81,10 +81,10 @@ if __name__ == "__main__":
                 print()
                 count += 1
 
-            except Exception as e:
+            except KeyboardInterrupt as e:
                 
-                print('Combinación de teclas no válida. Reiniciando comparación\n')
-                handler.getLog(7,FILENAME,[e])
+                print('\nCombinación de teclas no válida. Reiniciando comparación\n')
+                handler.getLog(7,FILENAME,["KeyboardInterrupt"])
         
         handler.getLog(1,FILENAME,None)
         print('\nCerrando ... ')
