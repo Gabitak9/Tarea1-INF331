@@ -1,0 +1,14 @@
+2020-09-11 17:20:56.124731 >> Inicialización de herramienta
+	|---2020-09-11 17:20:56.125481 >> Inicio de comparación n° 1
+		|---2020-09-11 17:21:01.854938 >> Ingresada cadena 1:        xx     x
+		|---2020-09-11 17:21:04.996972 >> Ingresada cadena 2: xx
+		|---2020-09-11 17:21:04.997099 >> Comparación exitosa
+			|-----------------------------result: 	{La cadena 1 es mas larga por 1 caracteres}
+	|---2020-09-11 17:21:04.997141 >> Inicio de comparación n° 2
+		|---2020-09-11 17:21:12.672170 >> Ingresada cadena 1:       wxo
+		|---2020-09-11 17:21:16.385562 >> Ingresada cadena 2: o               oq
+		|---2020-09-11 17:21:16.385841 >> Comparación exitosa
+			|-----------------------------result: 	{Las cadenas tienen el mismo largo}
+	|---2020-09-11 17:21:16.385918 >> Inicio de comparación n° 3
+		|---2020-09-11 17:21:18.818176 >> Ingresada cadena 1: exit()
+2020-09-11 17:21:18.818348 >> Ejecución terminada

@@ -109,7 +109,7 @@ def successComparison(date,info, filename):
     Returns:
         None
     """
-    newLog = '\t\t|---'+str(date)+' >> Comparasión exitosa\n\t\t\t|-----------------------------result: '+str(info[0])+'\n'
+    newLog = '\t\t|---'+str(date)+' >> Comparación exitosa\n\t\t\t|-----------------------------result: '+str(info[0])+'\n'
 
     with open(filename, 'a') as file:
        file.write(newLog)
@@ -127,7 +127,25 @@ def failComparison(date,info, filename):
     Returns:
         None
     """
-    newLog = '\t\t|---'+str(date)+' >> Comparasión fallida\n\t\t\t|-----------------------------details: '+str(info[0])+'\n'
+    newLog = '\t\t|---'+str(date)+' >> Comparación fallida\n\t\t\t|-----------------------------details: '+str(info[0])+'\n'
+
+    with open(filename, 'a') as file:
+       file.write(newLog)
+
+    return None
+
+def interruption(date,info, filename):
+    """Generación de entrada de comparacion fallida
+
+    Args:
+        date (timestamp): fecha y hora
+        info (list): informacion requerida
+        filename (string): nombre del archivo de logs
+
+    Returns:
+        None
+    """
+    newLog = '\t\t|---'+str(date)+' >> Comparación interrumpida\n\t\t\t|-----------------------------details: '+str(info[0])+'\n'
 
     with open(filename, 'a') as file:
        file.write(newLog)
@@ -144,7 +162,8 @@ switcher = {
         3: enterString1,
         4: enterString2,
         5: successComparison,
-        6: failComparison
+        6: failComparison,
+        7: interruption
     }
 
 #---------------------------------------------------------------------------------

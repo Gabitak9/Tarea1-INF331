@@ -60,28 +60,35 @@ if __name__ == "__main__":
 
         while(True):
 
-            print('[*] Comparación n° %d'%count)
-            handler.getLog(2,FILENAME,[count])
+            try:
 
-            firstString = str(input('\t[+] Ingrese cadena 1: '))
-            firstString =  firstString.replace(" ", "")
-            handler.getLog(3,FILENAME,[firstString])
+                print('[*] Comparación n° %d'%count)
+                handler.getLog(2,FILENAME,[count])
 
-            if firstString == 'exit()':
-                break
+                firstString = str(input('\t[+] Ingrese cadena 1: '))
+                firstString_ =  firstString.replace(" ", "")
+                handler.getLog(3,FILENAME,[firstString])
 
-            secondString = str(input('\t[+] Ingrese cadena 2: '))
-            secondString = secondString.replace(" ","")
-            handler.getLog(4,FILENAME,[secondString])
+                if firstString == 'exit()':
+                    break
 
-            compareString(firstString,secondString)
+                secondString = str(input('\t[+] Ingrese cadena 2: '))
+                secondString_ = secondString.replace(" ","")
+                handler.getLog(4,FILENAME,[secondString])
 
-            print()
-            count += 1
+                compareString(firstString_,secondString_)
+
+                print()
+                count += 1
+
+            except Exception as e:
+                
+                print('Combinación de teclas no válida. Reiniciando comparación\n')
+                handler.getLog(7,FILENAME,[e])
         
         handler.getLog(1,FILENAME,None)
         print('\nCerrando ... ')
 
-    except Exception as a:
+    except Exception as e:
         
-        print('[!] ERROR DE EJECUCIÓN')
+        print('[!] ERROR DE EJECUCIÓN. Cerrando programa.')
